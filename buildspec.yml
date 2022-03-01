@@ -1,9 +1,12 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+
   pre_build:
     commands:
-      - sudo apt-get install npm
       - npm install
 
   
