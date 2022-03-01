@@ -1,0 +1,30 @@
+.right-icon{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    margin-top: 4.5%;
+};
+
+
+
+
+.right-icon-item{
+    justify-self: center;
+}
+
+.right-icon-text{
+    justify-self: center;
+}
+
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar-clicked{
+    width: 30vh;
+}
+
+.AppBar{
+    background-color: '#262626',
+}
