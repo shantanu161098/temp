@@ -3,7 +3,9 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - sudo apt-get install npm
       - npm install
+
   
   build:
     commands:
